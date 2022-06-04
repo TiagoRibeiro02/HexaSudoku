@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: rgb(192,192,192);" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sudoku.Niveisscene">
+   <children>
+      <Button fx:id="button_Facil" layoutX="225.0" layoutY="64.0" mnemonicParsing="false" onAction="#buttonFacilPressed" onMouseClicked="#buttonFacilPressed" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: green;" text="Facil" AnchorPane.bottomAnchor="285.5" AnchorPane.topAnchor="64.0" />
+      <Button fx:id="button_Dificil" layoutX="226.0" layoutY="289.0" mnemonicParsing="false" onAction="#buttonDificilPressed" onMouseClicked="#buttonDificilPressed" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: red;" text="Dificil" AnchorPane.bottomAnchor="61.0" />
+      <Button fx:id="button_Medio" layoutX="226.0" layoutY="175.0" mnemonicParsing="false" onAction="#buttonMedioPressed" onMouseClicked="#buttonMedioPressed" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: yellow;" text="Medio" />
+      <Label fx:id="label1" layoutX="286.0" layoutY="14.0" />
+   </children>
+</AnchorPane>
